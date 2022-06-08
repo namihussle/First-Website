@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+  background-color: #d8e1e9ff;
+}
+h1, h2, h3 {
+font-family: 'Anybody', cursive;
+text-align: center;
+  color: #7392b7ff;
+}
+
+h1 {
+  font-size:80px
+}
+
+h2 {
+  font-size:25px
+}
+
+h3 {
+  font-size:45px
+}
+
+.text-center, .about {
+  font-family: 'Anybody', cursive;
+  text-align: center;
+}
+.contact {
+  border: 1px solid #759eb8ff;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CSS HEX */
+--beau-blue: #c5d5eaff;
+--air-superiority-blue: #759eb8ff;
+--shadow-blue: #7392b7ff;
+--light-steel-blue: #b3c5d7ff;
+--gainsboro: #d8e1e9ff;
