@@ -7,15 +7,26 @@ html, body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 body {
   background-color: #d8e1e9ff;
 }
+
+#container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 h1, h2, h3 {
 font-family: 'Anybody', cursive;
 text-align: center;
   color: #7392b7ff;
+}
+
+.rounded {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
 }
 
 h1 {
@@ -30,9 +41,9 @@ h3 {
   font-size:45px
 }
 
-.text-center, .about {
+.text-center, .about, ul li {
   font-family: 'Anybody', cursive;
-  text-align: center;
+  text-align: initial;
 }
 .contact {
   border: 1px solid #759eb8ff;
@@ -40,6 +51,18 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+ol {
+  text-align: initial;
+}
+
+.contact ul {
+  text-align: center;
+}
+
+.contact ul li {
+  display: inline;
+  list-style-type: none;
 }
 
 /* CSS HEX */
