@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .nav {
 font-family: 'Anybody', cursive;
 text-align: center;
   color: #7392b7ff;
@@ -30,6 +30,7 @@ text-align: center;
 }
 
 h1 {
+  margin: 0 auto;
   font-size:80px
 }
 
@@ -41,17 +42,24 @@ h3 {
   font-size:45px
 }
 
+.nav, .nav ul, .nav li {
+ list-style-type: none;
+  margin: 0 auto;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #7392b7ff;
+  font-size: 20px;
+}
+.nav li {
+  float:left;
+  border-right: 1px solid #bbb;
+}
+
 .text-center, .about, ul li {
   font-family: 'Anybody', cursive;
   text-align: initial;
 }
-.contact {
-  border: 1px solid #759eb8ff;
-  padding: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 ol {
   text-align: initial;
 }
@@ -64,6 +72,19 @@ ol {
   display: inline;
   list-style-type: none;
 }
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+/* visited link */
+a:visited {
+  color: white
+}
+/* mouse over link */
+a:hover {
+  color: #d8e1e9ff;
+
 
 /* CSS HEX */
 --beau-blue: #c5d5eaff;
